@@ -1,0 +1,31 @@
+.input {
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.input:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.large {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.medium {
+    width: 50%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.small {
+    width: 25%;
+    padding: 5px;
+    font-size: 10px;
+}
